@@ -3,8 +3,8 @@ import json
 # import sys
 
 # Configurations
-BUCKET_NAME = 'rekognition-images-hansguillen'
-REGION = 'us-east-1'
+BUCKET_NAME = 'example-name'
+REGION = 'us-east-1'        #change this if needed
 MAX_LABELS = 10
 MIN_CONFIDENCE = 75
 
