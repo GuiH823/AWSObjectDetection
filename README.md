@@ -65,6 +65,16 @@ cd AWSObjectDetection
 pip install -r requirements.txt
 ```
 
+### 3. Set Environmental Variables
+```bash
+# Mac/Linux
+export BUCKET_NAME=their-bucket-name
+
+# Windows CMD
+set BUCKET_NAME=their-bucket-name
+```
+See example in .env.example
+
 ### 3. Example Output
 ```
 🔍 Scanning bucket: rekognition-images-yourname
