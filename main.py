@@ -1,10 +1,11 @@
 import boto3
 import json
+import os
 # import sys
 
 # Configurations
-BUCKET_NAME = 'example-name'
-REGION = 'us-east-1'        #change this if needed
+BUCKET_NAME = os.environ.get('BUCKET_NAME', 'your-bucket-name')
+REGION = os.environ.get('AWS_REGION', 'us-east-1')
 MAX_LABELS = 10
 MIN_CONFIDENCE = 75
 
